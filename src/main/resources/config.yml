@@ -1,0 +1,34 @@
+# Item to use as a cube selecting tool.
+# default: IRON_HOE
+selecting-tool: IRON_HOE
+
+# Blocks to reset per tick.
+blocks-per-tick: 25
+
+# Allow breaking blocks in the reset zone that is not placed by a player in match.
+# default: false
+allow-arena-block-break: false
+
+# Remove dropped items in the reset zone when the match ends.
+# default: true
+remove-dropped-items: true
+
+# Prevent blocks in the reset zone from burning.
+# default: true
+prevent-block-burn: true
+
+# Prevents blocks in the reset zone from melting. (snow, ice)
+# default: true
+prevent-block-melt: true
+
+# Prevents blocks in the reset zone from exploding.
+# default: true
+prevent-block-explode: true
+
+# Prevents fire in the reset zone from spreading.
+# default: true
+prevent-fire-spread: true
+
+# Prevents tree leaves in the reset zone from decaying.
+# default: true
+prevent-leaf-decay: true
